@@ -3,24 +3,24 @@ import Document, { Head, Html, Main, NextScript } from "next/document";
 class MyDocument extends Document {
   render() {
     return (
-      <Html lang="en">
+      <Html lang="es">
         <Head>
           <link rel="icon" href="/favicon.ico" />
           <meta
             name="description"
-            content="See pictures from Next.js Conf and the After Party."
+            content="Galería de imágenes mostrando mi trabajo diario y cualquier cosa interesante que hago."
           />
-          <meta property="og:site_name" content="nextjsconf-pics.vercel.app" />
+          <meta property="og:site_name" content="Galería de Kevin Quinde" />
           <meta
             property="og:description"
-            content="See pictures from Next.js Conf and the After Party."
+            content="Explora mi trabajo diario y otras cosas interesantes que hago en esta galería de imágenes."
           />
-          <meta property="og:title" content="Next.js Conf 2022 Pictures" />
+          <meta property="og:title" content="Galería Profesional de Kevin Quinde" />
           <meta name="twitter:card" content="summary_large_image" />
-          <meta name="twitter:title" content="Next.js Conf 2022 Pictures" />
+          <meta name="twitter:title" content="Galería Profesional de Kevin Quinde" />
           <meta
             name="twitter:description"
-            content="See pictures from Next.js Conf and the After Party."
+            content="Galería de imágenes mostrando mi trabajo diario y cualquier cosa interesante que hago."
           />
         </Head>
         <body className="bg-black antialiased">

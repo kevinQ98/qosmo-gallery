@@ -53,9 +53,10 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
         )}
         <div className="columns-1 gap-4 sm:columns-2 xl:columns-3 2xl:columns-4">
           <div className="after:content relative mb-5 flex h-[629px] flex-col items-center justify-end gap-4 overflow-hidden rounded-lg bg-white/10 px-6 pb-16 pt-64 text-center text-white shadow-highlight after:pointer-events-none after:absolute after:inset-0 after:rounded-lg after:shadow-highlight lg:pt-0">
-            <h1 className="text-3xl font-bold">Qosmo Life</h1>
+            <Image src="https://res.cloudinary.com/drrrn9n42/image/upload/v1722569001/ocexs6xdusutkpaugaj8.jpg" alt="Kevin Quinde" className="size-20 rounded-full shadow" width={150} height={150} />
+            <h1 className="text-3xl font-bold">Qosmo</h1>
             <p className="text-lg">
-              Welcome to my documentary gallery as a software developer.
+              Welcome to my pic gallery as a software developer.
             </p>
           </div>
           {images.map(({ id, public_id, format, blurDataUrl }) => (
@@ -89,7 +90,7 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
       <footer className="p-6 text-center text-white/80 sm:p-12">
         Created by{" "}
         <a
-          href="https://your-portfolio-link.com"
+          href="https://linkedin.com/in/kevin-quinde-4b759b273"
           target="_blank"
           className="font-semibold hover:text-white"
           rel="noreferrer"
